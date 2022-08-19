@@ -1,6 +1,13 @@
 .page-footer {
   &__subscribe {
     // margin-left: 93px;
+
+    @media screen and(min-width:768px) {
+      margin-left: 151px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    }
   }
 
   &__form {
@@ -19,7 +26,7 @@
 
     color: var(--default-white);
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
       margin: 0 auto;
       margin-bottom: 20px;
     }
@@ -68,6 +75,11 @@
 
   @media screen and (max-width: 767px) {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
     margin-bottom: 20px;
   }
 }
