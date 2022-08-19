@@ -1,6 +1,6 @@
 .footer-container {
-  display: flex;
-  align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
 }
 
 .page-footer {
@@ -9,18 +9,31 @@
   padding-top: 60px;
 
   &__item {
-    margin-bottom: 9px;
+    @media screen and (min-width: 480px) {
+      margin-bottom: 8px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 9px;
+    }
   }
 }
 
 .page-footer__logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--default-white);
   margin-bottom: 20px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 
   &-span {
     color: var(--accent-color);
@@ -40,6 +53,11 @@
   &:focus,
   &:hover {
     color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 480px) {
+    text-align: center;
+    margin-bottom: 60px;
   }
 }
 
