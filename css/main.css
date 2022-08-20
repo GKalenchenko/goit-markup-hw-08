@@ -216,6 +216,11 @@ img {
     text-align: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .page-footer__social-title {
+    text-align: left;
+  }
+}
 .page-footer__social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,6 +241,11 @@ img {
 @media screen and (min-width: 768px) {
   .page-footer__social {
     margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__social {
+    margin-left: 70px;
   }
 }
 
@@ -263,6 +273,21 @@ img {
 @media screen and (min-width: 768px) {
   .page-footer__subscribe {
     margin-left: 151px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__subscribe {
+    margin-left: 93px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 .page-footer__form-title {
@@ -299,6 +324,11 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   align-items: flex-start;
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__wrapper {
+    margin-right: 12px;
+  }
 }
 
 .page-footer__input {
@@ -360,6 +390,12 @@ img {
   .page-footer__input {
     width: 450px;
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__input {
+    width: 350px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1158,6 +1194,12 @@ img {
             align-items: baseline;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 
 .page-footer {
   background-color: var(--background-color);
@@ -1196,6 +1238,7 @@ img {
   .page-footer__logo {
     font-size: 26px;
     line-height: 1.19;
+    margin-bottom: 20px;
   }
 }
 .page-footer__logo-span {
@@ -1224,6 +1267,12 @@ img {
 @media screen and (min-width: 768px) {
   .footer-container__adress {
     margin-left: 51px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-container__adress {
+    text-align: left;
+    margin: 0px;
   }
 }
 

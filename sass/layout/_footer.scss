@@ -4,6 +4,10 @@
     flex-wrap: wrap;
     align-items: baseline;
   }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .page-footer {
@@ -39,6 +43,7 @@
   @media screen and (min-width: 1200px) {
     font-size: 26px;
     line-height: 1.19;
+    margin-bottom: 20px;
   }
 
   &-span {
@@ -68,6 +73,11 @@
 
   @media screen and (min-width: 768px) {
     margin-left: 51px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+    margin: 0px;
   }
 }
 .page-footer__contact {
