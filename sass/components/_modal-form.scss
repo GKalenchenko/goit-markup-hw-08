@@ -111,8 +111,8 @@
 }
 
 .modal__textarea {
-  width: 448px;
-  height: 116px;
+  width: 370px;
+  height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
@@ -150,15 +150,28 @@
 
     color: var(--secondary-color);
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 448px;
+    height: 116px;
+  }
 }
 
 .modal__policy-desc {
   user-select: none;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--secondary-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__checkbox {

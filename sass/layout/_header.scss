@@ -7,12 +7,14 @@
   }
 
   &__contact-list {
-    display: flex;
+    display: none;
+    // display: flex;
     margin-left: auto;
   }
 
   &__nav {
-    display: flex;
+    display: none;
+    // display: flex;
     align-items: center;
   }
 }
@@ -93,4 +95,24 @@
 
 .page-header__contact-item {
   display: flex;
+}
+
+.page-header__container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }

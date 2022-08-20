@@ -7,12 +7,28 @@
 
   &__list-button {
     display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
+    // margin-bottom: 50px;
+    // justify-content: center;
+
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 768px) {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
   }
 
   &__list-item:not(:last-child) {
     margin-right: 8px;
+
+    @media screen and (max-width: 767px) {
+      &:nth-child(-n + 2) {
+        margin-bottom: 15px;
+      }
+    }
   }
 }
 
