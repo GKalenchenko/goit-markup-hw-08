@@ -60,7 +60,7 @@
     }
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
     width: 450px;
     height: 622px;
   }
@@ -70,7 +70,7 @@
     height: 536px;
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     &:nth-child(2n + 1) {
       margin-right: 30px;
     }

@@ -73,6 +73,11 @@
 .hero-section__container {
   margin: 0 auto;
 
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 118px 60px;
+  }
+
   @media screen and (min-width: 480px) {
     width: 480px;
     padding: 118px 60px;
