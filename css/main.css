@@ -1570,19 +1570,29 @@ img {
 .clients-section__link {
   border: 1px solid var(--logo-color);
   border-radius: 4px;
-  padding: 16px 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  height: 92px;
 }
 .clients-section__link:focus, .clients-section__link:hover {
   border-color: var(--accent-color);
 }
 @media screen and (min-width: 768px) {
   .clients-section__link {
-    padding: 16px 60px;
+    width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
   .clients-section__link {
-    padding: 16px 32px;
+    width: 170px;
   }
 }
 
@@ -1668,7 +1678,7 @@ img {
 .footer-container__adress:focus, .footer-container__adress:hover {
   color: var(--accent-color);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .footer-container__adress {
     text-align: center;
     margin-bottom: 60px;
